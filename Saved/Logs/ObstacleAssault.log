@@ -3952,3 +3952,101 @@ Please use /Niagara/DynamicInputs/Angles/AngleConversion.AngleConversion instead
 [2022.10.15-12.42.42:261][823]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 4.47% of total time (compiled   17 times, average 100.16 sec, max 532.66 sec, min 28.16 sec)
 [2022.10.15-12.42.42:261][823]LogShaderCompilers: Display: ================================================
 [2022.10.15-12.42.58:742][ 61]LogShaderCompilers: Display: Worker (1/3) finished batch of 10 jobs in 64.888s, FHitProxyVS [WorkerTime=7.518s], TTranslucencyShadowDepthVS<TranslucencyShadowDepth_Standard> [WorkerTime=6.014s], FDebugViewModePS [WorkerTime=5.363s], FTranslucentLightingInjectPS [WorkerTime=5.166s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=4.744s], FHitProxyVS [WorkerTime=3.595s], TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect [WorkerTime=2.088s], DepthNoPixelPipeline, VelocityPipeline, VelocityPipeline
+[2022.10.15-12.45.20:038][934]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 106.254s, FDebugViewModePS [WorkerTime=4.910s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=3.507s], FLumenCardPS<false> [WorkerTime=2.416s], FLumenCardPS<false> [WorkerTime=2.276s], FLumenCardPS<false> [WorkerTime=2.081s], TShadowDepthPSPixelShadowDepth_PerspectiveCorrect [WorkerTime=1.906s], VelocityPipeline, VelocityPipeline, DepthNoPixelPipeline, DepthNoPixelPipeline
+[2022.10.15-12.45.37:141][179]LogShaderCompilers: Display: Worker (1/3) finished batch of 10 jobs in 100.371s, TBasePassPSFNoLightMapPolicy [WorkerTime=28.469s], TBasePassPSFNoLightMapPolicy [WorkerTime=13.943s], TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=10.467s], FLumenCardVS [WorkerTime=9.657s], FDebugViewModePS [WorkerTime=9.445s], TShadowDepthVSVertexShadowDepth_OnePassPointLight [WorkerTime=7.168s], FTranslucentLightingInjectPS [WorkerTime=6.599s], FTranslucentLightingInjectPS [WorkerTime=6.462s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=5.147s], FLumenCardPS<false> [WorkerTime=2.379s]
+[2022.10.15-12.46.05:386][566]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 114.962s, TBasePassVSFNoLightMapPolicy [WorkerTime=33.064s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=15.073s], FLumenCardPS<true> [WorkerTime=15.072s], FTranslucentLightingInjectPS [WorkerTime=10.385s], FDebugViewModePS [WorkerTime=5.428s], FTranslucentLightingInjectPS [WorkerTime=4.102s], FTranslucentLightingInjectPS [WorkerTime=4.091s], FTranslucentLightingInjectPS [WorkerTime=3.933s], TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=3.872s], VelocityPipeline
+[2022.10.15-12.46.05:389][566]LogShaderCompilers: Display: ================================================
+[2022.10.15-12.46.05:390][566]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.15-12.46.05:390][566]LogShaderCompilers: Display: Total job queries 12023, among them cache hits 27 (0.22%)
+[2022.10.15-12.46.05:390][566]LogShaderCompilers: Display: Tracking 8963 distinct input hashes that result in 5537 distinct outputs (61.78%)
+[2022.10.15-12.46.05:390][566]LogShaderCompilers: Display: RAM used: 17.89 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.18%
+[2022.10.15-12.46.05:391][566]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.15-12.46.05:391][566]LogShaderCompilers: Display: Shaders Compiled: 11981
+[2022.10.15-12.46.05:391][566]LogShaderCompilers: Display: Jobs assigned 8993, completed 8963 (99.67%)
+[2022.10.15-12.46.05:391][566]LogShaderCompilers: Display: Average time worker was idle: 0.03 s
+[2022.10.15-12.46.05:392][566]LogShaderCompilers: Display: Time job spent in pending queue: average 3338.61 s, longest 6968.54 s
+[2022.10.15-12.46.05:393][566]LogShaderCompilers: Display: Job execution time: average 45.18 s, max 622.19 s
+[2022.10.15-12.46.05:394][566]LogShaderCompilers: Display: Job life time (pending + execution): average 3371.80 s, max 6968.57
+[2022.10.15-12.46.05:394][566]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13731.28 s
+[2022.10.15-12.46.05:394][566]LogShaderCompilers: Display: Jobs were issued in 952 batches (only local compilation was used), average 9.45 jobs/batch
+[2022.10.15-12.46.05:394][566]LogShaderCompilers: Display: Average processing rate: 0.65 jobs/sec
+[2022.10.15-12.46.05:394][566]LogShaderCompilers: Display: Effective parallelization: 2.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.10.15-12.46.05:394][566]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.15-12.46.05:394][566]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 205.24 sec, max 517.88 sec, min 7.64 sec)
+[2022.10.15-12.46.05:395][566]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 100.16 sec, max 532.66 sec, min 28.16 sec)
+[2022.10.15-12.46.05:395][566]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 97.51 sec, max 97.51 sec, min 97.51 sec)
+[2022.10.15-12.46.05:395][566]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 75.12 sec, max 75.12 sec, min 75.12 sec)
+[2022.10.15-12.46.05:396][566]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 68.94 sec, max 68.94 sec, min 68.94 sec)
+[2022.10.15-12.46.05:398][566]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.15-12.46.05:398][566]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.26% of total time (compiled  267 times, average 7.59 sec, max 63.12 sec, min 1.07 sec)
+[2022.10.15-12.46.05:398][566]LogShaderCompilers: Display:                                             FDebugViewModePS - 5.20% of total time (compiled  276 times, average 7.25 sec, max 44.92 sec, min 1.59 sec)
+[2022.10.15-12.46.05:399][566]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.66% of total time (compiled  277 times, average 6.48 sec, max 39.68 sec, min 1.42 sec)
+[2022.10.15-12.46.05:399][566]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.65% of total time (compiled  263 times, average 6.81 sec, max 58.27 sec, min 0.87 sec)
+[2022.10.15-12.46.05:399][566]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.47% of total time (compiled  261 times, average 6.60 sec, max 48.74 sec, min 0.84 sec)
+[2022.10.15-12.46.05:399][566]LogShaderCompilers: Display: ================================================
+[2022.10.15-12.47.30:269][557]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 130.248s, TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=57.247s], TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=18.399s], TBasePassVSFNoLightMapPolicy [WorkerTime=13.930s], TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=10.605s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=10.358s], FDebugViewModeVS [WorkerTime=7.545s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=3.736s], TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect [WorkerTime=3.069s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=2.481s], TShadowDepthPSPixelShadowDepth_OnePassPointLight [WorkerTime=2.343s]
+[2022.10.15-12.48.02:121][  4]LogShaderCompilers: Display: Worker (1/3) finished batch of 10 jobs in 144.961s, FDebugViewModePS [WorkerTime=52.741s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly [WorkerTime=21.516s], TBasePassVSFNoLightMapPolicy [WorkerTime=11.997s], FLumenCardVS [WorkerTime=11.850s], TBasePassVSFNoLightMapPolicy [WorkerTime=11.451s], TShadowDepthPSPixelShadowDepth_OnePassPointLight [WorkerTime=6.065s], TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect [WorkerTime=3.127s], TShadowDepthPSPixelShadowDepth_PerspectiveCorrect [WorkerTime=2.169s], VelocityPipeline, VelocityPipeline
+[2022.10.15-12.48.07:732][ 86]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 122.369s, FHitProxyVS [WorkerTime=46.229s], TShadowDepthVSVertexShadowDepth_OnePassPointLight [WorkerTime=19.790s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=13.760s], FDebugViewModePS [WorkerTime=11.676s], FLumenCardPS<false> [WorkerTime=8.059s], FLandscapePhysicalMaterialVS [WorkerTime=7.281s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=3.829s], FDebugViewModeVS [WorkerTime=3.804s], TBasePassVSFNoLightMapPolicy [WorkerTime=3.494s], DepthNoPixelPipeline
+[2022.10.15-12.48.48:265][627]LogSlate: Window 'Source Control Login' being destroyed
+[2022.10.15-12.49.18:921][ 81]LogShaderCompilers: Display: ================================================
+[2022.10.15-12.49.18:921][ 81]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.15-12.49.18:921][ 81]LogShaderCompilers: Display: Total job queries 12023, among them cache hits 27 (0.22%)
+[2022.10.15-12.49.18:921][ 81]LogShaderCompilers: Display: Tracking 9053 distinct input hashes that result in 5543 distinct outputs (61.23%)
+[2022.10.15-12.49.18:921][ 81]LogShaderCompilers: Display: RAM used: 17.90 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.18%
+[2022.10.15-12.49.18:921][ 81]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.15-12.49.18:921][ 81]LogShaderCompilers: Display: Shaders Compiled: 11981
+[2022.10.15-12.49.18:922][ 81]LogShaderCompilers: Display: Jobs assigned 9083, completed 9053 (99.67%)
+[2022.10.15-12.49.18:922][ 81]LogShaderCompilers: Display: Average time worker was idle: 0.03 s
+[2022.10.15-12.49.18:922][ 81]LogShaderCompilers: Display: Time job spent in pending queue: average 3375.85 s, longest 7161.90 s
+[2022.10.15-12.49.18:923][ 81]LogShaderCompilers: Display: Job execution time: average 45.42 s, max 622.19 s
+[2022.10.15-12.49.18:923][ 81]LogShaderCompilers: Display: Job life time (pending + execution): average 3408.82 s, max 7161.90
+[2022.10.15-12.49.18:923][ 81]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13924.76 s
+[2022.10.15-12.49.18:923][ 81]LogShaderCompilers: Display: Jobs were issued in 961 batches (only local compilation was used), average 9.45 jobs/batch
+[2022.10.15-12.49.18:923][ 81]LogShaderCompilers: Display: Average processing rate: 0.65 jobs/sec
+[2022.10.15-12.49.18:923][ 81]LogShaderCompilers: Display: Effective parallelization: 2.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.10.15-12.49.18:924][ 81]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.15-12.49.18:924][ 81]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 205.24 sec, max 517.88 sec, min 7.64 sec)
+[2022.10.15-12.49.18:924][ 81]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 100.16 sec, max 532.66 sec, min 28.16 sec)
+[2022.10.15-12.49.18:924][ 81]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 97.51 sec, max 97.51 sec, min 97.51 sec)
+[2022.10.15-12.49.18:924][ 81]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 75.12 sec, max 75.12 sec, min 75.12 sec)
+[2022.10.15-12.49.18:924][ 81]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 68.94 sec, max 68.94 sec, min 68.94 sec)
+[2022.10.15-12.49.18:925][ 81]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.15-12.49.18:926][ 81]LogShaderCompilers: Display:                                             FDebugViewModePS - 5.36% of total time (compiled  282 times, average 7.43 sec, max 52.74 sec, min 1.59 sec)
+[2022.10.15-12.49.18:926][ 81]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.30% of total time (compiled  272 times, average 7.61 sec, max 63.12 sec, min 1.07 sec)
+[2022.10.15-12.49.18:926][ 81]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.65% of total time (compiled  269 times, average 6.76 sec, max 58.27 sec, min 0.87 sec)
+[2022.10.15-12.49.18:926][ 81]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.64% of total time (compiled  281 times, average 6.46 sec, max 39.68 sec, min 1.42 sec)
+[2022.10.15-12.49.18:926][ 81]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.47% of total time (compiled  266 times, average 6.57 sec, max 48.74 sec, min 0.84 sec)
+[2022.10.15-12.49.18:926][ 81]LogShaderCompilers: Display: ================================================
+[2022.10.15-12.50.23:177][951]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 64.334s, TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly [WorkerTime=24.612s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=6.698s], FHitProxyPS [WorkerTime=5.167s], TBasePassVSFNoLightMapPolicy [WorkerTime=4.998s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=4.457s], FDebugViewModeVS [WorkerTime=4.020s], FLumenCardVS [WorkerTime=3.509s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=3.456s], FDebugViewModeVS [WorkerTime=3.434s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=3.411s]
+[2022.10.15-12.51.47:177][ 73]LogShaderCompilers: Display: Worker (2/3) finished batch of 10 jobs in 67.916s, TShadowDepthVSVertexShadowDepth_VirtualShadowMapPositionOnly [WorkerTime=27.613s], FDebugViewModePS [WorkerTime=10.070s], TShadowDepthVSVertexShadowDepth_OnePassPointLight [WorkerTime=7.848s], FHitProxyVS [WorkerTime=6.192s], FHitProxyVS [WorkerTime=4.321s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=3.612s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=2.723s], FDebugViewModeVS [WorkerTime=2.045s], TShadowDepthPSPixelShadowDepth_VirtualShadowMap [WorkerTime=1.854s], TShadowDepthPSPixelShadowDepth_PerspectiveCorrect [WorkerTime=1.415s]
+[2022.10.15-12.52.14:851][467]LogShaderCompilers: Display: Worker (3/3) finished batch of 10 jobs in 69.818s, TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=12.345s], FDebugViewModePS [WorkerTime=12.113s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=9.386s], TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly [WorkerTime=9.302s], TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=8.298s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=8.165s], TShadowDepthVSVertexShadowDepth_PerspectiveCorrect [WorkerTime=3.474s], FLumenCardVS [WorkerTime=3.176s], TShadowDepthPSPixelShadowDepth_OnePassPointLight [WorkerTime=1.938s], FHitProxyPS [WorkerTime=1.331s]
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: ================================================
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: Total job queries 12023, among them cache hits 27 (0.22%)
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: Tracking 9153 distinct input hashes that result in 5561 distinct outputs (60.76%)
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: RAM used: 17.92 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.19%
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: Shaders Compiled: 11981
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: Jobs assigned 9183, completed 9153 (99.67%)
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: Average time worker was idle: 0.03 s
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: Time job spent in pending queue: average 3417.98 s, longest 7346.96 s
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: Job execution time: average 45.50 s, max 622.19 s
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: Job life time (pending + execution): average 3450.73 s, max 7346.96
+[2022.10.15-12.52.23:949][600]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14109.82 s
+[2022.10.15-12.52.23:950][600]LogShaderCompilers: Display: Jobs were issued in 971 batches (only local compilation was used), average 9.46 jobs/batch
+[2022.10.15-12.52.23:950][600]LogShaderCompilers: Display: Average processing rate: 0.65 jobs/sec
+[2022.10.15-12.52.23:950][600]LogShaderCompilers: Display: Effective parallelization: 2.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.10.15-12.52.23:950][600]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.15-12.52.23:952][600]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 205.24 sec, max 517.88 sec, min 7.64 sec)
+[2022.10.15-12.52.23:952][600]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 100.16 sec, max 532.66 sec, min 28.16 sec)
+[2022.10.15-12.52.23:952][600]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 97.51 sec, max 97.51 sec, min 97.51 sec)
+[2022.10.15-12.52.23:952][600]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 75.12 sec, max 75.12 sec, min 75.12 sec)
+[2022.10.15-12.52.23:952][600]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 68.94 sec, max 68.94 sec, min 68.94 sec)
+[2022.10.15-12.52.23:953][600]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.15-12.52.23:954][600]LogShaderCompilers: Display:                                             FDebugViewModePS - 5.39% of total time (compiled  287 times, average 7.42 sec, max 52.74 sec, min 1.59 sec)
+[2022.10.15-12.52.23:954][600]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.28% of total time (compiled  276 times, average 7.57 sec, max 63.12 sec, min 1.07 sec)
+[2022.10.15-12.52.23:954][600]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.66% of total time (compiled  275 times, average 6.70 sec, max 58.27 sec, min 0.87 sec)
+[2022.10.15-12.52.23:954][600]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.62% of total time (compiled  283 times, average 6.45 sec, max 39.68 sec, min 1.42 sec)
+[2022.10.15-12.52.23:954][600]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.48% of total time (compiled  273 times, average 6.48 sec, max 48.74 sec, min 0.84 sec)
+[2022.10.15-12.52.23:954][600]LogShaderCompilers: Display: ================================================
+[2022.10.15-12.52.30:866][703]LogShaderCompilers: Display: Worker (1/3) finished batch of 10 jobs in 63.363s, TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=12.680s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=8.523s], TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly [WorkerTime=7.274s], TShadowDepthVSVertexShadowDepth_VirtualShadowMap [WorkerTime=6.757s], TShadowDepthVSVertexShadowDepth_OutputDepth [WorkerTime=6.110s], TBasePassVSFNoLightMapPolicy [WorkerTime=5.325s], FHitProxyVS [WorkerTime=5.292s], TShadowDepthPSPixelShadowDepth_OnePassPointLight [WorkerTime=3.713s], TBasePassVSFNoLightMapPolicy [WorkerTime=3.293s], DepthPosOnlyNoPixelPipeline
