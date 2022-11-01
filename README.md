@@ -34,3 +34,4 @@ Operators are used to perform operations on variables and values.
 e.g. `+,-.=.*,/`
 <br>
 `Dot Operator` - Gets something from within a struct or class
+

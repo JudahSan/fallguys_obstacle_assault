@@ -28,6 +28,4 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	float MyX = 0;
-
-
 };

@@ -742,3 +742,169 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.01-16.53.05:145][  3]LogSlate: Took 0.000745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
 [2022.11.01-16.53.21:216][198]LogSlate: Took 0.000596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2022.11.01-16.53.32:298][408]LogDerivedDataCache: C:/Users/barak/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.160 and deleted 0 file(s) with total size 0 MiB.
+[2022.11.01-17.22.56:733][980]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.23.24:649][ 39]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.24.26:763][202]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.24.43:716][234]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.25.09:794][302]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.25.33:946][367]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.25.51:548][412]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.26.02:295][443]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.26.37:221][542]Candidate modules for hot reload:
+[2022.11.01-17.26.37:222][542]  ObstacleAssault
+[2022.11.01-17.26.37:263][542]Launching UnrealBuildTool... [F:/Video Games/Epic Games/UE_5.0/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.exe  -ModuleWithSuffix=ObstacleAssault,0180 ObstacleAssaultEditor Win64 Development -Project="F:/Game Development/ObstacleAssaultUnreal5/ObstacleAssault/ObstacleAssault.uproject" "F:/Game Development/ObstacleAssaultUnreal5/ObstacleAssault/ObstacleAssault.uproject"  -IgnoreJunk]
+[2022.11.01-17.26.37:338][542]Warning: Starting HotReload took  0.8s.
+[2022.11.01-17.26.40:836][546]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.26.44:784][556]CompilerResultsLog: New page: Compilation - Nov 1, 2022, 11:26:44 PM
+[2022.11.01-17.26.44:814][556]LogMainFrame: MainFrame: Module compiling took 8.201 seconds
+[2022.11.01-17.26.44:883][556]Warning: HotReload failed, recompile failed
+[2022.11.01-17.26.50:756][743]LogLiveCoding: Display: Starting LiveCoding
+[2022.11.01-17.26.50:757][743]LogLiveCoding: Display: LiveCodingConsole Arguments: ObstacleAssaultEditor Win64 Development
+[2022.11.01-17.27.21:885][744]LogLiveCoding: Display: First instance in process group "UE_ObstacleAssault_0xc1282665", spawning console
+[2022.11.01-17.27.21:885][744]LogLiveCoding: Display: Waiting for server
+[2022.11.01-17.27.21:885][744]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.11.01-17.27.55:694][847]LogLiveCoding: Display: Starting Live Coding compile.
+[2022.11.01-17.33.19:510][969]LogLiveCoding: Display:    Creating library F:\Game Development\ObstacleAssaultUnreal5\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_0.lib and object F:\Game Development\ObstacleAssaultUnreal5\ObstacleAssault\Binaries\Win64\UnrealEditor-ObstacleAssault.patch_0.exp
+[2022.11.01-17.33.20:409][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.11.01-17.33.20:702][970]Display: Reload/Re-instancing Complete: No object changes detected
+[2022.11.01-17.33.20:703][970]LogLiveCoding: Display: Live coding succeeded
+[2022.11.01-17.35.23:112][344]LogMaterial: Display: Missing cached shadermap for BasicShapeMaterial in PCD3D_SM5, Default, SM5 (DDC key hash: 7D5E5BF9B01178194A3AF0AC62B439AEB29D3581), compiling. 
+[2022.11.01-17.35.51:282][362]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.35.56:635][368]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.01-17.35.56:833][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.01-17.35.56:834][368]PIE: New page: PIE session: Main (Nov 1, 2022, 11:35:56 PM)
+[2022.11.01-17.35.56:963][368]LogOnline: OSS: Created online subsystem instance for: NULL
+[2022.11.01-17.35.56:969][368]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.11.01-17.35.57:003][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2022.11.01-17.35.57:257][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.253963s)
+[2022.11.01-17.35.57:257][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.267228s)
+[2022.11.01-17.35.57:257][368]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.01-17.35.57:276][368]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2022.11.01-17.35.57:288][368]LogAIModule: Creating AISystem for world Main
+[2022.11.01-17.35.57:315][368]LogPlayLevel: PIE: World Init took: (0.057250s)
+[2022.11.01-17.35.57:383][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2022.11.01-17.35.57:475][368]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.11.01-17.35.57:475][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.01-17.35.57:475][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.01-17.35.57:475][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.01-17.35.57:475][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.01-17.35.57:475][368]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.01-17.35.57:475][368]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.01-17.35.57:476][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.01-17.35.57:476][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.01-17.35.57:477][368]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.01-17.35.57:477][368]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.01-17.35.57:477][368]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.01-17.35.57:522][368]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.01-17.35.57:598][368]LogAudioMixer: Display: Using Audio Hardware Device Speaker/HP (Realtek High Definition Audio)
+[2022.11.01-17.35.57:600][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.01-17.35.57:600][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.01-17.35.57:600][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.01-17.35.57:605][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2022.11.01-17.35.57:605][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2022.11.01-17.35.57:610][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2022.11.01-17.35.57:610][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2022.11.01-17.35.57:610][368]LogInit: FAudioDevice initialized.
+[2022.11.01-17.35.57:610][368]LogAudio: Display: Audio Device (ID: 2) registered with world 'Main'.
+[2022.11.01-17.35.57:987][368]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.11.01-17.35.58:103][368]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.11.01-20.35.58
+[2022.11.01-17.36.06:372][368]LogWorld: Bringing up level for play took: 8.384603
+[2022.11.01-17.36.06:484][368]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2022.11.01-17.36.07:562][368]PIE: Server logged in
+[2022.11.01-17.36.07:591][368]PIE: Play in editor total start time 10.895 seconds.
+[2022.11.01-17.36.15:611][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-17.36.15:611][516]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2022.11.01-17.36.15:660][516]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-17.36.15:741][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-17.36.15:921][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.01-17.36.16:029][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-17.36.16:139][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-17.36.16:272][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.01-17.36.16:275][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2022.11.01-17.36.16:443][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.11.01-17.36.16:637][517]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2022.11.01-17.36.21:802][606]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.01-17.36.21:855][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.01-17.36.21:855][606]PIE: New page: PIE session: Main (Nov 1, 2022, 11:36:21 PM)
+[2022.11.01-17.36.21:856][606]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2022.11.01-17.36.21:967][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.111488s)
+[2022.11.01-17.36.21:967][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.111777s)
+[2022.11.01-17.36.21:967][606]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.01-17.36.21:967][606]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2022.11.01-17.36.21:969][606]LogAIModule: Creating AISystem for world Main
+[2022.11.01-17.36.21:983][606]LogPlayLevel: PIE: World Init took: (0.016173s)
+[2022.11.01-17.36.22:049][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2022.11.01-17.36.22:051][606]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.11.01-17.36.22:051][606]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.01-17.36.22:051][606]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.01-17.36.22:051][606]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.01-17.36.22:051][606]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.01-17.36.22:051][606]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.11.01-17.36.22:051][606]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.01-17.36.22:051][606]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.11.01-17.36.22:051][606]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.01-17.36.22:053][606]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.01-17.36.22:053][606]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.01-17.36.22:054][606]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.01-17.36.22:057][606]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.01-17.36.22:120][606]LogAudioMixer: Display: Using Audio Hardware Device Speaker/HP (Realtek High Definition Audio)
+[2022.11.01-17.36.22:122][606]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.01-17.36.22:122][606]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.01-17.36.22:122][606]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.01-17.36.22:128][606]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.11.01-17.36.22:128][606]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.11.01-17.36.22:132][606]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.11.01-17.36.22:132][606]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.11.01-17.36.22:132][606]LogInit: FAudioDevice initialized.
+[2022.11.01-17.36.22:132][606]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2022.11.01-17.36.22:177][606]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2022.11.01-17.36.22:227][606]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.11.01-20.36.22
+[2022.11.01-17.36.47:309][606]LogWorld: Bringing up level for play took: 25.131055
+[2022.11.01-17.36.47:361][606]LogOnline: OSS: Created online subsystem instance for: :Context_2
+[2022.11.01-17.36.47:365][606]PIE: Server logged in
+[2022.11.01-17.36.47:366][606]PIE: Play in editor total start time 25.511 seconds.
+[2022.11.01-17.37.51:350][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-17.37.51:351][406]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2022.11.01-17.37.51:354][406]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.11.01-17.37.51:357][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-17.37.51:424][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.01-17.37.51:431][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.01-17.37.51:457][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.01-17.37.51:465][406]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.01-17.37.51:467][406]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.11.01-17.37.51:489][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.11.01-17.37.51:565][407]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2022.11.01-17.39.15:331][297]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.39.19:203][354]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2022.11.01-17.39.19:376][355]LogViewport: Scene viewport resized to 455x297, mode Windowed.
+[2022.11.01-17.39.33:587][508]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.40.57:463][108]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.41.10:685][158]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2022.11.01-17.42.55:523][876]LogShaderCompilers: Display: Worker (3/3) finished batch of 5 jobs in 442.090s, FDebugViewModeVS [WorkerTime=182.179s], FDebugViewModePS [WorkerTime=113.916s], FLumenCardVS [WorkerTime=46.401s], FDebugViewModeVS [WorkerTime=33.885s], FLumenCardPS<false> [WorkerTime=16.636s]
+[2022.11.01-17.42.55:672][876]LogShaderCompilers: Display: ================================================
+[2022.11.01-17.42.55:672][876]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.11.01-17.42.55:672][876]LogShaderCompilers: Display: Total job queries 21, among them cache hits 0 (0.00%)
+[2022.11.01-17.42.55:672][876]LogShaderCompilers: Display: Tracking 5 distinct input hashes that result in 5 distinct outputs (100.00%)
+[2022.11.01-17.42.55:673][876]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.11.01-17.42.55:673][876]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.11.01-17.42.55:673][876]LogShaderCompilers: Display: Shaders Compiled: 21
+[2022.11.01-17.42.55:673][876]LogShaderCompilers: Display: Jobs assigned 21, completed 5 (23.81%)
+[2022.11.01-17.42.55:679][876]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.09 s
+[2022.11.01-17.42.55:679][876]LogShaderCompilers: Display: Job execution time: average 442.09 s, max 442.09 s
+[2022.11.01-17.42.55:679][876]LogShaderCompilers: Display: Job life time (pending + execution): average 442.18 s, max 442.18
+[2022.11.01-17.42.55:679][876]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 442.18 s
+[2022.11.01-17.42.55:679][876]LogShaderCompilers: Display: Jobs were issued in 3 batches (only local compilation was used), average 7.00 jobs/batch
+[2022.11.01-17.42.55:679][876]LogShaderCompilers: Display: Average processing rate: 0.01 jobs/sec
+[2022.11.01-17.42.55:679][876]LogShaderCompilers: Display: Effective parallelization: 0.89 (times faster than compiling all shaders on one thread). Compare with number of workers: 3
+[2022.11.01-17.42.55:679][876]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2022.11.01-17.42.55:679][876]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 113.92 sec, max 113.92 sec, min 113.92 sec)
+[2022.11.01-17.42.55:680][876]LogShaderCompilers: Display:                                             FDebugViewModeVS (compiled    2 times, average 108.03 sec, max 182.18 sec, min 33.88 sec)
+[2022.11.01-17.42.55:680][876]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 46.40 sec, max 46.40 sec, min 46.40 sec)
+[2022.11.01-17.42.55:680][876]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 16.64 sec, max 16.64 sec, min 16.64 sec)
+[2022.11.01-17.42.55:680][876]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2022.11.01-17.42.55:680][876]LogShaderCompilers: Display:                                             FDebugViewModeVS - 54.98% of total time (compiled    2 times, average 108.03 sec, max 182.18 sec, min 33.88 sec)
+[2022.11.01-17.42.55:680][876]LogShaderCompilers: Display:                                             FDebugViewModePS - 28.99% of total time (compiled    1 times, average 113.92 sec, max 113.92 sec, min 113.92 sec)
+[2022.11.01-17.42.55:680][876]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.81% of total time (compiled    1 times, average 46.40 sec, max 46.40 sec, min 46.40 sec)
+[2022.11.01-17.42.55:680][876]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.23% of total time (compiled    1 times, average 16.64 sec, max 16.64 sec, min 16.64 sec)
+[2022.11.01-17.42.55:680][876]LogShaderCompilers: Display: ================================================
+[2022.11.01-17.43.35:532][552]LogLiveCoding: Display: Starting Live Coding compile.
