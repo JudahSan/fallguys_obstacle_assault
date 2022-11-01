@@ -34,4 +34,38 @@ Operators are used to perform operations on variables and values.
 e.g. `+,-.=.*,/`
 <br>
 `Dot Operator` - Gets something from within a struct or class
+<br>
+### Game Loop
 
+1. Process Input
+2. Update games state
+3.  Render to display
+
+- `Frame` - a single picture in a video
+- `Frame rate` - how many frames per second(FPS)
+- `Tick` - called every frame
+
+### Scope
+
+- How long does the variable live?
+- Generally between {} braces
+
+### Write Pseudocode with comments
+
+- Pseudocode- plain language description of the steps in an algorithm.
+
+### Functions
+
+- Expression- fragment of code that produces a value
+
+```cpp
+MyVector
+LocalVecor.Z + 100
+GetActorLocation()
+```
+
+- Statement - an action to be performed
+
+```cpp
+FVector CurrentLocation = GetActorLocation();
+```

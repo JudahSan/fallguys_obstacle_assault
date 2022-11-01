@@ -16,7 +16,6 @@ void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();	
 
-	SetActorLocation(MyVector);
 }
 
 // Called every frame
@@ -24,5 +23,19 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-}
 
+	// TO:DO
+	// Update the CurrentLocation: Use X or Y member. Add to it and assign back. Move the platform to it's start location. Compile and test
+
+	// Move platform forward
+		// Get current location
+	FVector CurrentLocation = GetActorLocation();
+		// Add vector to that location
+	CurrentLocation.X = CurrentLocation.X +1;
+		// Set the location
+	SetActorLocation(CurrentLocation);
+	// Send platform back if gone too far
+		// Check how far we've moved
+		// Reverse direction of motion if gone too far
+
+}
