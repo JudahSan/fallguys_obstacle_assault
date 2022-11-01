@@ -14,9 +14,11 @@ AMovingPlatform::AMovingPlatform()
 // Called when the game starts or when spawned
 void AMovingPlatform::BeginPlay()
 {
-	Super::BeginPlay();
-	
+	Super::BeginPlay();	
+
+	MyVector.Y = MyX;
 }
+
 
 // Called every frame
 void AMovingPlatform::Tick(float DeltaTime)
