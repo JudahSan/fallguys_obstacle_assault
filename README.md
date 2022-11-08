@@ -1,4 +1,4 @@
-<!--
+
 # ObstacleAssault 
 
 Developed with Unreal Engine 5
@@ -71,6 +71,19 @@ GetActorLocation()
 FVector CurrentLocation = GetActorLocation();
 ```
 
-TO:DO
+### Using DeltaTime
 
--->
+- Using `DeltaTime` Unreal can tell us how long each frame took to execute
+- When we multiply something by DeltaTime it makes our game "frame rate independent".
+- ie the game behaves the same on fast and slow computers
+
+
+Each second move 1 unit to the left
+
+| | slow computer 🖥️ | fast computer 🖥️ |
+|--|--------------|-------------|
+|Frames per second| 10   | 100 |
+|Duration of frame | 0.1s | 0.01s |
+|Distance per second| 1 x 10 x 0.1 = 1| 1 x 100 x 0.01 = 1
+
+- Scope Resolution Operator- (::) Looks inside a class

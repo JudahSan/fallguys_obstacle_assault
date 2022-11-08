@@ -23,4 +23,14 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere, Category="Moving Platform")
+	FVector PlatformVelocity = FVector(100, 0, 0);
+	UPROPERTY(EditAnywhere, Category="Moving Platform")
+	float MoveDistance = 100;
+
+
+	FVector StartLocation;	
 };
+
+// TO:DO MovingPlatform velocity vector that tells us the direction and speed at which we want to go
+// Add category
