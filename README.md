@@ -87,3 +87,18 @@ Each second move 1 unit to the left
 |Distance per second| 1 x 10 x 0.1 = 1| 1 x 100 x 0.01 = 1
 
 - Scope Resolution Operator- (::) Looks inside a class
+
+### [Vector normal](https://dev.to/fkkarakurt/matrices-and-vectors-in-game-development-67h)
+
+A normal refers to a unit-length vector
+
+- [GetSafeNormal](https://docs.unrealengine.com/4.26/en-US/API/Runtime/Core/Math/FVector/GetSafeNormal/)
+
+```cpp
+FVector GetSafeNormal
+(
+    float Tolerance
+)  const
+```
+
+Gets a normalized copy of the vector, checking it is safe to do so based on the length. Returns zero vector of vectr length is too small to safely normalize.

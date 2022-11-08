@@ -46,8 +46,13 @@ void AMovingPlatform::Tick(float DeltaTime)
 
 	if (DistanceMoved > MoveDistance) 
 	{
+		
+		// Get normal of the vector
+		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
+		// Update start location of we reached the end of our travel
+		StartLocation = StartLocation + MoveDirection * MoveDistance;
+		SetActorLocation(StartLocation);
 		// Reverse Direction
 		PlatformVelocity = -PlatformVelocity;
 	}
-
 }
