@@ -123,3 +123,19 @@ Output logs
 ```cpp
 UE_LOG(LogTemp, Warning, TEXT("Hello"));
 ```
+
+[FString](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/StringHandling/FString/)
+=
+
+```cpp
+//Creating FStrings
+FString TestHUDString = FString(TEXT("This is my test FString."));
+```
+
+Conversions
+-
+
+| __From__ | __To__ | __Example__|
+|-|-|-|
+|Fstring| FNamae|TestHUDName = FName(*TestHUDString); <br> _FString -> FName is dangerous as the conversion is lossy as FName's are case insensitive._
+|FString|FText|TestHUDText = FText::FromString(TestHUDString); <br> _FString -> FText is valid in some cases, but be aware that the FString's content will not benefit from the FText's "auto localization"._
