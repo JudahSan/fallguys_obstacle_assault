@@ -74,18 +74,24 @@ void AMovingPlatform::MovePlatform(float DeltaTime)
 // Rotate platform function
 void AMovingPlatform::RotatePlatform(float DT)
 {
-	UE_LOG(LogTemp, Display, TEXT("%s Rotate me"), *GetName());
+
+		// These lines of code don't always work
+	// FRotator CurrentRotation = GetActorRotation()
+	// CurrentRotation = CurrentRotation + RotationVelocity * DeltaTime;
+	// SetActorRotation(CurrentRotation);
+	// A better Alternative
+	AddActorLocalRotation(RotationVelocity * DT);
 }
 
 
 // Return
-bool AMovingPlatform::ShouldPlatformReturn()
+bool AMovingPlatform::ShouldPlatformReturn() const
 {
 
 	return GetDistanceMoved() > MoveDistance;
 }
 
-float AMovingPlatform::GetDistanceMoved()
+float AMovingPlatform::GetDistanceMoved() const
 {
 	return FVector::Dist(StartLocation, GetActorLocation());
 }

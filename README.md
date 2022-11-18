@@ -139,3 +139,87 @@ Conversions
 |-|-|-|
 |Fstring| FNamae|TestHUDName = FName(*TestHUDString); <br> _FString -> FName is dangerous as the conversion is lossy as FName's are case insensitive._
 |FString|FText|TestHUDText = FText::FromString(TestHUDString); <br> _FString -> FText is valid in some cases, but be aware that the FString's content will not benefit from the FText's "auto localization"._
+
+[`Const` member function](https://www.geeksforgeeks.org/const-member-functions-c/#:~:text=Constant%20member%20functions%20are%20those,to%20the%20function%20definition%20header.)
+=
+
+`const values`
+-
+
+The [const keyword](https://learn.microsoft.com/en-us/cpp/cpp/const-cpp?redirectedfrom=MSDN&view=msvc-170) specifies that a variable's value is constant and tells the compiler to prevent the programmer from modifying it.
+
+```cpp
+// constant_values1.cpp
+int main() {
+   const int i = 5;
+   i = 10;   // C3892
+   i++;   // C2105
+}
+```
+
+In C++, you can use the const keyword instead of the #define preprocessor directive to define constant values. Values defined with const are subject to type checking, and can be used in place of constant expressions. In C++, you can specify the size of an array with a const variable as follows:
+
+```cpp
+// constant_values2.cpp
+// compile with: /c
+const int maxarray = 255;
+char store_char[maxarray];  // allowed in C++; not allowed in C
+```
+
+`const member functions`
+-
+
+Declaring a [member function](https://learn.microsoft.com/en-us/cpp/cpp/const-cpp?redirectedfrom=MSDN&view=msvc-170) with the const keyword specifies that the function is a "read-only" function that doesn't modify the object for which it's called. A constant member function can't modify any non-static data members or call any member functions that aren't constant. To declare a constant member function, place the const keyword after the closing parenthesis of the argument list. The const keyword is required in both the declaration and the definition.
+
+```cpp
+// constant_member_function.cpp
+class Date
+{
+public:
+   Date( int mn, int dy, int yr );
+   int getMonth() const;     // A read-only function
+   void setMonth( int mn );   // A write function; can't be const
+private:
+   int month;
+};
+
+int Date::getMonth() const
+{
+   return month;        // Doesn't modify anything
+}
+void Date::setMonth( int mn )
+{
+   month = mn;          // Modifies data member
+}
+int main()
+{
+   Date MyDate( 7, 4, 1998 );
+   const Date BirthDate( 1, 18, 1953 );
+   MyDate.setMonth( 4 );    // Okay
+   BirthDate.getMonth();    // Okay
+   BirthDate.setMonth( 4 ); // C2662 Error
+}
+```
+
+- [Importance of const member functions](https://stackoverflow.com/questions/27573172/usefulness-of-const-member-function-method)
+
+    Declaring a variable as `const` allows the compiler to perform a number of optimizations. It may be regarded as a strengthening of the strict aliasing rule. If two pointers are of the same type, ordinarily the compiler must assume they can alias. But if one is declared or used as const, the compiler may ignore potential aliasing with respect to those operations. This can reduce unnecessary loads and spills, leading to simpler, faster code.
+
+    It's also important to make your code const-correct, so that it will interoperate properly with other code. Depending on the circumstances, casting away the const qualifier may invoke undefined behavior, so if a function is non-const, it will not be generally possible to use the function on a const object. This will cause problems for anyone who happens to have const objects.
+
+
+FInalizing Level Design and Polish
+=
+
+- What elements can I play with?
+    - Rotating/moving
+    - up/down, left/right
+    - pushing/transporting
+- Simple linear course
+- Get to the end
+
+Level Design
+-
+
+![alt text](img/LevelDesign.png)<br>
+![alt text](img/PrototypeLevelDesign.png)
