@@ -102,3 +102,24 @@ FVector GetSafeNormal
 ```
 
 Gets a normalized copy of the vector, checking it is safe to do so based on the length. Returns zero vector of vectr length is too small to safely normalize.
+
+[Game Mode and  Game State](https://docs.unrealengine.com/5.0/en-US/setting-up-a-game-mode-in-unreal-engine/)
+=
+
+- The GameMode defines the game's set of rules. The rules can include how players join the game, game pausing, and level transition, as well as any game-specific behavior such as win conditions. The GameMode is set for each level, and GameModes can be reused in multiple levels.
+
+Output logs
+=
+
+- Using `Unreal Engine 4 Snippets`
+    ```cpp
+    ulog
+    ```
+- [Logging](https://docs.unrealengine.com/5.0/en-US/API/Runtime/Core/Logging/)
+- [Logging](https://unrealcommunity.wiki/logging-lgpidy6i) means keeping an ordered record of events, function calls, variable values at certain time during runtime, etc. This is usually saved in the form of text in a log file.
+
+- Syntax
+
+```cpp
+UE_LOG(LogTemp, Warning, TEXT("Hello"));
+```

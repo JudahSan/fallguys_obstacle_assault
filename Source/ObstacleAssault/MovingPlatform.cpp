@@ -20,6 +20,14 @@ void AMovingPlatform::BeginPlay()
 
 	StartLocation = GetActorLocation();
 
+	// FString
+	FString MyString = "My String Value"l
+
+	// Output logs
+
+	UE_LOG(LogTemp, Display, TEXT("Configured Moved Distance: %f"), MoveDistance);
+
+
 }
 
 // Called every frame
@@ -47,6 +55,9 @@ void AMovingPlatform::Tick(float DeltaTime)
 	if (DistanceMoved > MoveDistance) 
 	{
 		
+		float Overshoot = DistanceMoved - MoveDistance;
+		// Log overshoot
+		UE_LOG(LogTemp, Display, TEXT("Distance was overshot by: %f"), Overshoot);
 		// Get normal of the vector
 		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
 		// Update start location of we reached the end of our travel
